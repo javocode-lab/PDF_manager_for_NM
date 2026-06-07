@@ -1,0 +1,92 @@
+# =========================================================
+# Python
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# =========================================================
+# Salidas generadas por la app
+# =========================================================
+salida_organizada/
+salida/
+output/
+outputs/
+resultados/
+organizados/
+
+# Reportes generados automáticamente
+reporte_organizacion.txt
+reporte_organizacion.csv
+profesionales_detectados.csv
+archivos_sin_prefijo.csv
+debug_headers_sin_prefijo.txt
+
+# =========================================================
+# Archivos de trabajo reales / sensibles
+# =========================================================
+Archivos_PDF.zip
+Archivos_PDF*.zip
+PAPETTA_OCCHIPINTI_FRANCESCO.zip
+*.zip
+
+# Listados reales de pacientes y profesionales
+Listado_Pacientes.xlsx
+Listado_profesionales.xlsx
+datos.txt
+prof.txt
+
+# Si más adelante querés subir plantillas, usá nombres tipo:
+# Listado_Pacientes_EJEMPLO.xlsx
+# Listado_profesionales_EJEMPLO.xlsx
+!Listado_Pacientes_EJEMPLO.xlsx
+!Listado_profesionales_EJEMPLO.xlsx
+!prof_ejemplo.txt
+
+# =========================================================
+# Temporales de Excel / Office
+# =========================================================
+~$*.xlsx
+~$*.xls
+*.tmp
+*.temp
+
+# =========================================================
+# Windows / Sistema
+# =========================================================
+desktop.ini
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# =========================================================
+# Logs
+# =========================================================
+*.log
+logs/
+
+# =========================================================
+# Builds / empaquetado futuro
+# =========================================================
+build/
+dist/
+*.spec
+
+# =========================================================
+# Variables de entorno / configuración privada
+# =========================================================
+.env
+.env.local
+.env.*.local
